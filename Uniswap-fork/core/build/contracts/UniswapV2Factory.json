@@ -5820,10 +5820,86 @@
       "links": {},
       "address": "0xC990D46fAc66d1962b39061254222332883f48da",
       "transactionHash": "0x9cf22568fcf50ae9d05fbf2305fc1eab7620a27366f1a5ff6137b5888cfb4525"
+    },
+    "1631578304510": {
+      "events": {
+        "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token0",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token1",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "pair",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "name": "PairCreated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x79249B6Cf834f7457F3955b2858c89eE12Ef315D",
+      "transactionHash": "0xcd6a340bf0c7a37dbe451f9fd4d3f54d472abfb66d98c5a0d7dd7dbe21fad857"
+    },
+    "1631584296855": {
+      "events": {
+        "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token0",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token1",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "pair",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "name": "PairCreated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x0ACfA2D42FC2e9e558704Dfe88e6FB390E092C37",
+      "transactionHash": "0x5c10ce695763d98eb3ff3881f91f1a4df5c0b2e215016db11d6c54fce6e07da2"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-13T12:17:24.216Z",
+  "updatedAt": "2021-09-14T02:04:04.365Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
