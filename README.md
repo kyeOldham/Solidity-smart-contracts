@@ -5,6 +5,7 @@
 - Created a basic website NFT mini app with a backend, smart contracts and a frontend. Connect via rinkeby
 test network (then refresh), connect wallet. Then you will see the nft with an ID of 0. I also randomly generated
 the 6 Brotatos using the nft-generator tool.
+https://xenodochial-mestorf-141d1d.netlify.app/
 
 # In Progress:
 - Uniswap fork (backend completed) need to learn more web3.js to connect a frontend
