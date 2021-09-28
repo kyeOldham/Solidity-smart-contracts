@@ -1,8 +1,7 @@
 
 import { useWeb3React } from '@web3-react/core';
-import { useState, useEffect } from 'react';
-import { ethers } from 'ethers';
-import { Link, useHistory } from "react-router-dom";
+import { useState } from 'react';
+import { Link } from "react-router-dom";
 import { BsChevronLeft } from 'react-icons/bs';
 import InitialIcon from './InitialsIcon';
 import ethFunc from './ethereum';
@@ -17,7 +16,6 @@ const SendToContact = (props: any) => {
   const [amount, setAmount] = useState("");
   const [balance, setBalance] = useState(0);
   const [errors, setErrors] = useState({});
-  const history = useHistory();
 
   if (!name) {
     return <div>Sorry, but the user was not found</div>

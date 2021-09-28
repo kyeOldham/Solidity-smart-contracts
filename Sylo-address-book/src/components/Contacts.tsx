@@ -7,7 +7,7 @@ import InitialIcon from "./InitialsIcon";
 import storage from './localStorage';
 
 function Contacts() {
-  const { active, account, library, connector, activate, deactivate } = useWeb3React()
+  const { active, deactivate } = useWeb3React()
   const history = useHistory();
   const [contacts, setContacts] = useState([]);
   // let contacts = [{'name': '', 'address': ''}]

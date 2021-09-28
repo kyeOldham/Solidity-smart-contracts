@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link, useHistory } from "react-router-dom";
 import { BsChevronLeft } from 'react-icons/bs';
 import storage from './localStorage';

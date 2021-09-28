@@ -76,6 +76,23 @@ const localStore =  {
     
     remove(key) {
         localStorage.removeItem(key);
+    },
+
+    delete(key, name){
+        if (this.hasData(key)) {
+            let _value = this.get(key);
+            for (let i = 0; i < _value.length; i++){
+                _value[i] = JSON.parse(_value[i]);
+                if(_value[i].name === name){
+                    _value.splice(i, 1);
+                    break;
+                }
+                _value[i] = JSON.stringify({name: _value[i].name, address: _value[i].address})
+            }
+            this.set(key, _value);
+        } else {
+            return false;
+        }
     }
 }
 

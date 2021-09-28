@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useWeb3React } from "@web3-react/core"
 import { injected } from "./wallet/Connectors";
 import metamaskIcon from '../image-551.png';
 
 function Start() {
-  const { active, account, library, connector, activate, deactivate } = useWeb3React()
+  const { active, account, activate, deactivate } = useWeb3React()
   const history = useHistory();
   async function connect() {
     try {

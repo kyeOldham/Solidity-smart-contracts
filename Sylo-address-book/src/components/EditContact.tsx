@@ -52,6 +52,11 @@ const EditContact = (props: any) => {
     return formIsValid;
   }
 
+  async function deleteContact(){
+    storage.delete('contacts', pathName);
+    history.push('/contacts');
+  }
+
   function handleFormSubmit(e: any) {
     e.preventDefault();
     if(handleValidation()){
@@ -82,6 +87,7 @@ const EditContact = (props: any) => {
         aria-label="address"
       />
       <ErrorMessage messages={errors} />
+      <button className="main-btn delete" value="Delete" onClick={deleteContact}><span className="label">Delete Contact</span></button>
       <button className="main-btn" value="Save"><span className="label">Save</span></button>
     </form>
     </div>

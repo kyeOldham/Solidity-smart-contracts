@@ -52,7 +52,7 @@ h1.home-title {
   font-family: Rawline;
 }
 
-p.text, span, h2, h3, li, input, ::placeholder {
+p.text, span, h2, h3, li, input, ::placeholder, .edit-btn a {
   font-family: Rawline;
 }
 
@@ -61,6 +61,10 @@ p.text, span, h2, h3, li, input, ::placeholder {
 }
 .alert {
   margin-bottom: 10px;
+}
+
+.edit-btn a {
+  text-decoration: none;
 }
 
 h3 {
@@ -96,6 +100,7 @@ ul {
   width: 100%;
   padding: 0px;
 }
+
 button.main-btn {
   background: #F15A29;
   border-radius: 21.5px;
@@ -103,6 +108,16 @@ button.main-btn {
   height: 44px;
   border: none;
   width: 343px;
+}
+
+button.main-btn.delete {
+  background: #FFFFFF;
+  border: 1px solid #EE3D52;
+  margin-bottom: 10px;
+}
+
+button.main-btn.delete span.label {
+  color: #EE3D52;
 }
 
 span.label {

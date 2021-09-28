@@ -1,4 +1,4 @@
-import { ethers, Contract } from 'ethers';
+import { ethers } from 'ethers';
 
 const ethFunctions = {
   async startPayment({ether, addr}) {
