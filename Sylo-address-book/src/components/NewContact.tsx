@@ -20,7 +20,7 @@ const NewContact = () => {
       formIsValid = false;
       tempErrors["name"] = "Name cannot be empty"
     } else if (typeof name !== "undefined") {
-      if (!name.match(/^[a-zA-Z]+$/)) {
+      if (!name.match(/^[a-zA-Z ]+$/)) {
         formIsValid = false;
         tempErrors["name"] = "Only letters allowed";
       }
