@@ -48486,10 +48486,16 @@
       "links": {},
       "address": "0x319082Aa2A37188123AE446Ad701DaaFbA3D1ca3",
       "transactionHash": "0x10b9f8b67322088083fb7f2975c22c7bf247f12d4465c8c2993a312ffd3fe7b1"
+    },
+    "1631839256064": {
+      "events": {},
+      "links": {},
+      "address": "0x8E672EB60d28b90919c18F3E67D6256a105e1239",
+      "transactionHash": "0x9ec73ed142a643b3e8eb9372b2da8ecd25f8d9fc3030622bb304d58bdf34a608"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-14T01:52:45.127Z",
+  "updatedAt": "2021-09-17T00:42:46.846Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

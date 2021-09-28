@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFT_App/backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFT_App/generated_nfts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Uniswap-fork/uniswap-v2-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Uniswap-fork/uniswap-v2-periphery" vcs="Git" />
+  </component>
+</project>
